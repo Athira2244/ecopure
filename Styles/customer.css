@@ -1,0 +1,53 @@
+:root {
+  --background-color: #38b6ff;
+  --card-bg: #ffa500;
+}
+a {
+  text-decoration: none;
+}
+header {
+  background-color: rgb(0 0 0 / 50%);
+  z-index: 1000;
+}
+
+h1 {
+  text-shadow: 1px 1px 0px rgb(105, 105, 105);
+}
+.home {
+  background: linear-gradient(to top, rgb(84, 215, 255), white);
+  height: 90vh;
+}
+.image img {
+  animation: rotation 5s infinite alternate;
+}
+.latest {
+  background-color: var(--card-bg);
+}
+.categories img {
+  height: 250px;
+  object-fit: cover;
+}
+.cart .card {
+  height: 200px;
+}
+.cart img {
+  height: 200px;
+  object-fit: cover;
+}
+.orders .card-footer {
+  background-color: var(--card-bg);
+}
+.category {
+  background-color: var(--card-bg);
+}
+.footer {
+  background-color: var(--background-color);
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

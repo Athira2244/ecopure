@@ -1,0 +1,76 @@
+:root {
+  --background-color: #38b6ff;
+  --card-bg: #ffa500;
+}
+
+a {
+  text-decoration: none;
+}
+header {
+  background-color: rgb(0 0 0 / 40%);
+  z-index: 1000;
+}
+
+.carousel-inner img {
+  width: 100%;
+  object-fit: cover;
+  height: 100vh;
+}
+h1 {
+  text-shadow: 1px 1px 0px rgb(105, 105, 105);
+}
+.services .card {
+  border: 2px solid var(--card-bg);
+  height: 250px;
+}
+.products {
+  background-color: var(--background-color);
+}
+.details {
+  background-color: var(--card-bg) !important;
+  border-top-right-radius: 50%;
+  transition: 0.5s ease-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.details:hover {
+  border-top-right-radius: 0%;
+  border-top-left-radius: 50%;
+  transition: 0.5s ease-out;
+}
+.testimonials .card {
+  border: 1px solid var(--card-bg);
+}
+
+.testimonials .image {
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  background-color: var(--card-bg);
+}
+.footer {
+  background-color: var(--background-color);
+}
+
+/*ABOUT US*/
+.about {
+  background-color: var(--background-color);
+}
+
+.list .card:hover {
+  color: white !important;
+  background-color: var(--card-bg) !important;
+  transition: 0.5s ease;
+}
+.blogs img {
+  width: 100%;
+  object-fit: cover;
+  height: 100vh;
+}
+.review {
+  color: white;
+}
+.contents {
+  background-color: var(--card-bg);
+}
+#register_main {
+  background: linear-gradient(to left, rgb(89, 188, 255), white);
+}

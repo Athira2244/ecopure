@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="../../Styles/seller.css" />
+</head>
+<body>
+       <!------------------------------------------HEADER------------------------------------------------------>
+
+       <header class="position-fixed top-0 w-100">
+        <!------------------------------------------NAVBAR------------------------------------------------------>
+        <nav class="container navbar navbar-expand-lg justify-content-between">
+          <a class="navbar-brand text-white" href="#"
+            ><span
+              class="fw-bolder text-success fs-3"
+              style="font-family: cursive"
+              >Eco</span
+            >Pure</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#nav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="nav">
+            <ul class="navbar-nav align-items-center">
+              <li class="nav-item">
+                <a class="nav-link text-center text-white" href="../seller/home.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-center text-white" href="products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-center text-white" href="../seller/orders.html">Orders</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-center text-white" href="../seller/becomeseller.html">Become A Seller</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-center text-white" href="../seller/account.html">Account</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    <!-------------------------------------------MAIN---------------------------------------------------------------->
+    <!-------------------------------------------EDIT------------------------------------------------------------>
+    <section class="edit my-5 py-5 container">
+        <div class="row gy-2">
+          <div class=" col-lg-12">
+            <h1 class="my-3 text-success">
+             Update Profile
+            </h1>
+            <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="name">
+                </div>
+                
+                <div class="mb-3">
+                  <label for="mail" class="form-label">Email Address</label>
+                  <input type="email" class="form-control" id="mail">
+                </div>
+                <div class="mb-3">
+                    <label for="phone" class="form-label">Phone</label>
+                    <input type="number" class="form-control" id="phone">
+                  </div>
+                  <div class="form-group">
+                    <label for="address">Address</label>
+                    <textarea class="form-control" id="address" rows="3"></textarea>
+                  </div>
+                
+                   
+                    <button type="submit" class="btn btn-dark my-2">Update</button>
+                
+                
+              </form>
+          </div>
+        </div>
+      </section>
+<!-------------------------------------------FOOTER------------------------------------------------------------------------>
+      <footer>
+        <section class="footer pb-1 pt-5">
+          <div class="container">
+            <div class="row gy-5">
+              <div class="col-lg-3">
+                <h3 class="fw-bolder text-center">EXPLORE EcoPure</h3>
+                <p class="text-white">
+                  Eco Pure invites you to join the green revolution. Embrace a
+                  lifestyle that cares for both you and the environment. Our
+                  carefully curated range of organic products empowers you to make
+                  mindful choices for a healthier, happier world.
+                </p>
+              </div>
+  
+              <div class="col-lg-3 text-center">
+                <h3 class="fw-bolder">QUICK LINKS</h3>
+                <div class="d-flex flex-column">
+                  <a href="#" class="text-white">HOME</a>
+                  <a href="#" class="text-white">PRODUCTS</a>
+                  <a href="#" class="text-white">BLOGS</a>
+                  <a href="#" class="text-white">ABOUT US</a>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <h3 class="fw-bolder">CONTACT US</h3>
+                <h5 class="text-white">Connecting for Your Queries</h5>
+                <form>
+                  <div class="my-2">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Enter Your Name"
+                    />
+                  </div>
+                  <div class="my-2">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Enter Your Email Address"
+                    />
+                  </div>
+  
+                  <button type="submit" class="btn btn-dark my-2">
+                    SEND<i class="bi bi-send-arrow-up ms-2"></i>
+                  </button>
+                </form>
+              </div>
+  
+              <div class="col-lg-3">
+                <h6 class="fw-bolder text-center">Mail Us</h6>
+                <p
+                  class="d-flex align-items-center justify-content-center text-white"
+                >
+                  <i class="bi bi-envelope-fill text-white mx-2 fs-5"></i
+                  >abc123@gmail.com
+                </p>
+                <h6 class="fw-bolder text-center">Call Us</h6>
+                <p
+                  class="d-flex align-items-center justify-content-center text-white"
+                >
+                  <i class="bi bi-telephone-fill text-white mx-2 fs-5"></i>(+91)
+                  8878787878
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr class="border-white w-75 border-1 mx-auto" />
+          <p class="text-center fw-bolder">
+            Copyright All Rights Reserved 2024 <br /><span class="text-white"
+              >Designed By EcoPure</span
+            >
+          </p>
+        </section>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../../Scripts/script.js"></script>
+</body>
+</html>
